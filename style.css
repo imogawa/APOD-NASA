@@ -5,10 +5,11 @@
 }
 
 header {
-    margin-bottom: 30px;
+    margin-top: 50px;
     font-size: 1rem;
+    height: 100px;
     font-family: 'Trispace', 'sans-serif' ;
-    color: rgb(251, 251, 251);
+    background-color: rgba(251, 251, 251, 0.727);
     border-radius: 10px;
 }
 
@@ -28,6 +29,7 @@ body {
 }
 
 #data, #botao {
+    margin-top: 4rem;
     background-color: rgb(180, 168, 168);
     color: rgb(0, 0, 0);
     border: none;
@@ -37,14 +39,15 @@ body {
 
 #titulo, #explicacao{
     color: blueviolet;
+    background-color: rgba(251, 251, 251, 0.727);
+    border-radius: 10px 5px;
 }
 
 iframe {
     border: none;
 }
 
-iframe,
-img {
+iframe, img {
     display: none;
     width: 500px;
     height: 500px;
