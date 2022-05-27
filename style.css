@@ -31,7 +31,7 @@ body {
 
 #data, #botao {
     margin-top: 4rem;
-    background-color: rgb(180, 168, 168);
+    background-color: rgba(180, 168, 168, 0.829);
     color: rgb(0, 0, 0);
     border: none;
     padding: 20px;
