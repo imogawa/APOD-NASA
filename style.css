@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Trispace:wght@300&display=swap');
+
+* {
+    text-align: center;
+}
+
+header {
+    margin-bottom: 30px;
+    font-size: 1rem;
+    font-family: 'Trispace', 'sans-serif' ;
+    color: rgb(251, 251, 251);
+    border-radius: 10px;
+}
+
+body {
+    background-image: url(starry-sky-gde8b40c74_1280.jpg);
+}
+#form{
+    margin-bottom: 50px ;
+}
+
+#exibicao { 
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#data, #botao {
+    background-color: rgb(180, 168, 168);
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#titulo, #explicacao{
+    color: blueviolet;
+}
+
+iframe {
+    border: none;
+}
+
+iframe,
+img {
+    display: none;
+    width: 500px;
+    height: 500px;
+}
